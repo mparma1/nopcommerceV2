@@ -22,6 +22,7 @@ import org.testng.annotations.Parameters;
 import com.nocommerce.utilies.ReadConfig;
 
 // GIT URL:-https://github.com/mparma1/nopcommerceV2.git
+//Token :   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
 public class BaseClass {
 	ReadConfig readconfig= new ReadConfig();
 	public String baseURL=readconfig.getApplicationURL();
